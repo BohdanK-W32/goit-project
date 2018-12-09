@@ -41,3 +41,60 @@
         url('../fonts/roboto-v18-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/roboto-v18-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
  }
+
+// Var
+
+$orange-color: #ef742f;
+
+//  Styles
+
+body{
+     min-width: 320px;
+     max-width: 90%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.header{
+     display: flex;
+     flex-direction: column;
+     margin-top: 1rem;
+}
+
+.logo-wrapper{
+     margin-bottom: 1.5rem;
+}
+
+.contact{
+     display: flex;
+     flex-flow: column nowrap;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 14px;
+}
+
+.email{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 0.5rem;
+}
+
+.email__link{
+     color: #000;
+     text-decoration: none;
+}
+
+.tel{
+     display: flex;
+     flex-flow: column nowrap;
+}
+
+.tel__link{
+     color: #000;
+     text-decoration: none;
+}
+
+.tel__link--before::before{
+
+}
