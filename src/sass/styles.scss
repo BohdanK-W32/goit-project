@@ -48,9 +48,15 @@ $orange-color: #ef742f;
 
 //  Styles
 
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
 body{
      min-width: 320px;
-     max-width: 90%;
+     padding: 1rem;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -93,8 +99,13 @@ body{
 .tel__link{
      color: #000;
      text-decoration: none;
+     margin-bottom: 5px;
 }
 
 .tel__link--before::before{
+
+}
+
+.email__link--before{
 
 }
