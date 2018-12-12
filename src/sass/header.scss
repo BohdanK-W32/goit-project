@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.logo-wrapper{
+    margin-bottom: 1.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.email__link{
+    color: #000;
+    text-decoration: none;
+}
+
+.tel{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tel__link{
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.tel__svg{
+    padding-right: 30px;
+}
