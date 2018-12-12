@@ -20,24 +20,20 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
-}
 
-.email__link{
-    color: #000;
-    text-decoration: none;
+    &__link{
+        color: #000;
+        text-decoration: none;
+    }
 }
 
 .tel{
     display: flex;
     flex-flow: column nowrap;
-}
 
-.tel__link{
-    color: #000;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
-
-.tel__svg{
-    padding-right: 30px;
+    &__link{
+        color: #000;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
 }
