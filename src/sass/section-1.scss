@@ -11,6 +11,19 @@
 
 .photo-wrapper{
     max-width: 416px;
-    max-height: 513px;
+    height: 513px;
     background-color: #000;
+}
+
+.photo{
+    object-position: -43px 0;
+    object-fit: cover;
+    max-width: 416px;
+    width: auto;
+    max-height: 459px;
+    height: 100%;
+}
+
+.section-1__about-course{
+    font-family: 'Roboto Bold';
 }
