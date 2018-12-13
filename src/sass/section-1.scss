@@ -1,7 +1,13 @@
 .headline{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 36px;
+}
+
+.subline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .bg-black{
@@ -11,19 +17,45 @@
 
 .photo-wrapper{
     max-width: 416px;
-    height: 513px;
+    height: auto;
     background-color: #000;
 }
 
 .photo{
-    object-position: -43px 0;
     object-fit: cover;
     max-width: 416px;
-    width: auto;
-    max-height: 459px;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 54px;
 }
 
 .section-1__about-course{
-    font-family: 'Roboto Bold';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+
+    &-bottom{
+        margin-bottom: 30px;
+    }
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider{
+    width: 304px;
+    height: 184px;
+    border: 1px solid #fafafa;
+    -webkit-box-shadow: -10px 10px 38px -17px rgba(0,0,0,0.36);
+    -moz-box-shadow: -10px 10px 38px -17px rgba(0,0,0,0.36);
+    box-shadow: -10px 10px 38px -17px rgba(0,0,0,0.36);
 }
