@@ -1,0 +1,71 @@
+.section-5{
+    background: url(../images/programm.png) 95% 47% no-repeat;
+}
+
+.headline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.bg-black{
+    color: #fff;
+    background-color: #000;
+}
+
+.item{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+
+.number-wrapper{
+    // width: 29.33%; (min-width: 768px+)
+    width: 15%;
+}
+
+.number{
+    font-family: 'Righteous', sans-serif;
+    font-size: 28px;
+}
+
+.content{
+    // width: 70.67%; (min-width: 768px+)
+    width: 85%;
+
+    &__text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+}
+
+.content-about{
+
+    &__headline{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 17px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }    
+}
+
+.content-homework{
+
+    &__headline{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+}
+
+.bg-orange{
+    color: #fff;
+    background-color: $orange-color;
+    padding: 2px 3px;
+}
