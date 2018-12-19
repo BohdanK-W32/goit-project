@@ -6,6 +6,8 @@
 @import './variables.scss';
 @import './header.scss';
 @import './section2.scss';
+@import './section4.scss';
+@import './footer.scss';
 
 //  Styles
 
@@ -15,10 +17,4 @@
      padding: 0;
 }
 
-body{
-     min-width: 320px;
-     padding: 1rem;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-}
+

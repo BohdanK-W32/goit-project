@@ -20,7 +20,7 @@
   font-size: 25px;
 }
 
-p {
+.p {
   max-width: 322px;
   margin-top: 18px;
   position: relative;
@@ -28,7 +28,7 @@ p {
   line-height: 1.4;
 }
 
-p::before {
+.p::before {
   height: 4px;
   width: 27px;
   background: #000;
@@ -69,12 +69,12 @@ p::before {
     text-align: left;
   }
 
-  p {
+  .p {
     margin-top: 27px;
     margin-left: 48px;
   }
 
-  p::before {
+  .p::before {
     height: 6px;
     width: 40px;
     left: -48px;
@@ -89,7 +89,7 @@ p::before {
     height: auto;
   }
 
-  p::before {
+  .p::before {
     height: 8px;
     width: 56px;
     left: -64px;
@@ -97,7 +97,7 @@ p::before {
     display: block;
   }
 
-  p {
+  .p {
     margin-top: 27px;
     margin-left: 64px;
   }
