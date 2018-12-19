@@ -1,4 +1,5 @@
 .header{
+    max-width: 850px;
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
@@ -20,24 +21,42 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
-}
 
-.email__link{
-    color: #000;
-    text-decoration: none;
+    &__link{
+        color: #000;
+        text-decoration: none;
+    }
 }
 
 .tel{
     display: flex;
     flex-flow: column nowrap;
+
+    &__link{
+        color: #000;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
 }
 
-.tel__link{
-    color: #000;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
+@media(min-width: 768px){
+    .header{
+        width: 80vw;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.tel__svg{
-    padding-right: 30px;
+    .logo-wrapper{
+        margin-bottom: 0;
+    }
+
+    .contact{
+        flex-flow: row;
+        align-items: center;
+    }
+
+    .email{
+        margin-right: 24px;
+    }
 }
