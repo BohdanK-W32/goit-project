@@ -43,6 +43,7 @@ gulp.task('styles', () => {
     .pipe(rename('styles.min.css'))
     .pipe(gulp.dest('./build/css'))
     .pipe(server.stream());
+    
 });
 
 gulp.task('scripts', () => {
