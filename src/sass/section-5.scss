@@ -69,3 +69,19 @@
     background-color: $orange-color;
     padding: 2px 3px;
 }
+
+@media (min-width: 850px){
+
+    .programm{
+
+        &__row{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .item{
+        width: 30%;
+        margin: 0 1.5%;
+    }
+}
