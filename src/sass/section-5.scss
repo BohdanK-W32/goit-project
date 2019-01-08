@@ -1,5 +1,22 @@
 .section-5{
-    background: url(../images/programm.png) 95% -60px no-repeat;
+    position: relative;
+    margin-top: 100px;
+
+    &--before::before{
+        display: none;
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        content: "programm";
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 160px;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+        color: #eee;
+        transform: rotate(90deg);
+        z-index: -1;
+    }
 }
 
 .headline{
@@ -92,6 +109,12 @@
 }
 
 @media (min-width: 768px){
+
+    .section-5{
+        &--before::before{
+            display: block;
+        }
+    }
 
     .programm{
 
