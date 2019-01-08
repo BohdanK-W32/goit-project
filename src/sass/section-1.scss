@@ -1,5 +1,5 @@
 .section-1{
-background: url(../images/go_it.png) 80% 80% no-repeat;
+    background: url(../images/go_it.png) 80% 80% no-repeat;
 
     &__about-course{
         position: relative;
@@ -62,7 +62,6 @@ background: url(../images/go_it.png) 80% 80% no-repeat;
 }
 
 .photo-wrapper{
-    max-width: 416px;
     height: auto;
     background-color: #000;
     margin-bottom: 54px;
@@ -164,6 +163,14 @@ background: url(../images/go_it.png) 80% 80% no-repeat;
     .info-site{
         display: flex;
         flex-direction: row;
+    }
+
+    .photo-wrapper{
+        width: 46%;
+    }
+
+    .section-1__article{
+        width: 46%;
     }
 
     .headline{
