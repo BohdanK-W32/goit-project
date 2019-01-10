@@ -1,0 +1,193 @@
+.section-1{
+background: url(../images/go_it.png) 80% 80% no-repeat;
+
+    &__about-course{
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 21px;
+        margin-bottom: 54px;
+        margin-left: 0;
+        max-width: 360px;
+
+        &--before::before{
+            display: none;
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: -56px - 47px;
+            width: 56px;
+            height: 8px;
+            background-color: #000;
+        }
+    }
+
+    &__article{
+        margin-bottom: 54px;
+    }
+}
+
+.headline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.subline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 23px;
+
+    &--relative{
+        position: relative;
+    }
+
+    &--before::before{
+        content: "";
+        display: none;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: -16px - 23px;
+        left: 0;
+        background-color: #000;
+    }
+}
+
+.bg-black{
+    color: #fff;
+    background-color: #000;
+}
+
+.photo-wrapper{
+    max-width: 416px;
+    height: auto;
+    background-color: #000;
+    margin-bottom: 54px;
+}
+
+.photo{
+    object-fit: cover;
+    max-width: 416px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 54px;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+
+    &-bottom{
+        margin-bottom: 30px;
+    }
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider{
+    position: relative;
+    width: 304px;
+    height: 184px;
+    border: 1px solid #fafafa;
+    -webkit-box-shadow: -10px 10px 38px -17px rgba(0,0,0,0.36);
+    -moz-box-shadow: -10px 10px 38px -17px rgba(0,0,0,0.36);
+    box-shadow: -10px 10px 38px -17px rgba(0,0,0,0.36);
+    background-color: #fff;
+
+    &--before::before, 
+    &--after::after{
+        display: none;
+        content: "";
+        width: 16px;
+        height: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+
+    &--before::before{
+        background: url(../images/arrow_left.png) no-repeat;
+        left: -17px - 24px;
+    }
+
+    &--after::after{
+        background: url(../images/arrow-right.png) no-repeat;
+        left: 303px + 24px;
+    }
+
+    &__content{
+        position: relative;
+        padding: 40px 32px 0;
+
+        &--before::before{
+            content: "";
+            position: absolute;
+            top: 24px;
+            background: $orange-color;
+            width: 8px;
+            height: 8px;
+        }
+    }
+}
+
+@media(min-width: 768px){
+
+    .section-1{
+        &__about-course{
+            margin-left: 103px;
+
+            &--before::before{
+                display: block;
+            }
+        }
+
+        &__article{
+            padding-left: 18px;
+            max-width: 420px;
+        }
+    }
+
+    .info-site{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headline{
+        font-size: 55px;
+    }
+
+    .subline{
+        font-size: 35px;
+        margin-top: 39px;
+
+        &--before::before{
+            display: block;
+        }
+    }
+
+    .text{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .slider{
+        &--before::before, 
+        &--after::after{
+            display: block;
+        }
+    }
+}

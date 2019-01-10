@@ -5,6 +5,8 @@
 @import './fonts.scss';
 @import './variables.scss';
 @import "./section-7.scss";
+@import './section-5.scss';
+@import './section-1.scss';
 
 //  Styles
 
@@ -12,5 +14,16 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-};
+}
 
+body{
+     min-width: 320px;
+     padding: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.wrapper{
+     max-width: 850px;
+}

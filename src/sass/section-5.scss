@@ -1,0 +1,174 @@
+.section-5{
+    position: relative;
+    margin-top: 100px;
+
+    &--before::before{
+        display: none;
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        content: "programm";
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 160px;
+        letter-spacing: 15px;
+        text-transform: uppercase;
+        color: #eee;
+        transform: rotate(90deg);
+        z-index: -1;
+    }
+}
+
+.headline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.bg-black{
+    color: #fff;
+    background-color: #000;
+}
+
+.item{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+
+.number-wrapper{
+    width: 65px;
+}
+
+.number{
+    font-family: 'Righteous', sans-serif;
+    font-size: 28px;
+    text-align: right;
+    padding-right: 16px;
+    position: relative;
+
+    &--after::after{
+        display: none;
+        position: absolute;
+        content: "";
+        width: 8px;
+        height: 8px;
+        top: 36px + 8px;
+        left: 31px + 8px;
+        background-color: $orange-color;
+    }
+}
+
+.content{
+
+    width: 200px;
+
+    &__text{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+}
+
+.content-about{
+
+    &__headline{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    
+    &__row-1, 
+    &__row-2, 
+    &__row-3, 
+    &__row-4, 
+    &__row-5{
+        height: auto;
+    }
+}
+
+.content-homework{
+
+    &__headline{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+}
+
+.bg-orange{
+    color: #fff;
+    background-color: $orange-color;
+    padding: 2px 3px;
+}
+
+@media (min-width: 768px){
+
+    .section-5{
+        &--before::before{
+            display: block;
+        }
+    }
+
+    .programm{
+
+        &__row{
+            display: flex;
+            flex-direction: row;
+            margin: 15px 0;
+        }
+    }
+
+    .item{
+        width: 34%;
+        margin: 0 1%;
+    }
+
+    .number{
+
+        &--after::after{
+            display: block;
+        }
+    }
+
+    .content{
+
+        &__text{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 18px;
+        }
+    }
+
+    .content-about{
+
+        &__row-1{
+            height: 390px;
+        }
+    
+        &__row-2{
+            height: 277px;
+        }
+    
+        &__row-3{
+            height: 276px;
+        }
+    
+        &__row-4{
+            height: 276px;
+        }
+    
+        &__row-5{
+            height: 293px;
+        }
+    }   
+}
+
