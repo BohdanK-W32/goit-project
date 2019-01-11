@@ -9,6 +9,7 @@
 @import './section-5.scss';
 @import './section-1.scss';
 @import './section2.scss';
+@import './section3.scss';
 @import './section4.scss';
 @import './footer.scss';
 
@@ -18,4 +19,9 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
+}
+
+.wrapper{
+   max-width: 850px;
+   margin: 1rem;
 }
