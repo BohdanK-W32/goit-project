@@ -1,0 +1,100 @@
+.section4 {
+  max-width: 859px;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
+.text-4 {
+  font-size: 35px;
+  color: #fff;
+  background: #000;
+  display: inline-block;
+  text-align: center;
+}
+
+.card__title, .card__title1, .card__title2, .card__title3, .card__title4, .card__title5 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.card__p-1,
+.card__p-2,
+.card__p-4,
+.card__p-5,
+.card__p-3,
+.card__p-6 {
+  font-size: 16px;
+  color: rgba(63, 65, 68, 255);
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.card-4 {
+ max-width: 200px;
+}
+
+.before-orange {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.card__orange {
+  background: #f26228;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 3px;
+}
+.card__title::before{
+    content: "01.";
+    font-size: 32px;
+    position: absolute;
+    left: -66px;
+    font-weight: bold;
+}
+.cards-4{
+max-width: 858px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.card__title1::before{
+    content: "02.";
+    font-size: 32px;
+    position: absolute;
+    left: -66px;
+    font-weight: bold;
+}
+.card__title2::before{
+    content: "03.";
+    font-size: 32px;
+    position: absolute;
+    left: -66px;
+    font-weight: bold;
+}
+.card__title3::before{
+    content: "04.";
+    font-size: 32px;
+    position: absolute;
+    left: -66px;
+    font-weight: bold;
+}
+.card__title4::before{
+    content: "05.";
+    font-size: 32px;
+    position: absolute;
+    left: -66px;
+    font-weight: bold;
+}
+.card__title5::before{
+    content: "06.";
+    font-size: 32px;
+    position: absolute;
+    left: -66px;
+    font-weight: bold;
+}
