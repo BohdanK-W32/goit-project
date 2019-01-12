@@ -68,7 +68,7 @@
     &__text{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.4;
         margin-bottom: 18px;
     }
@@ -111,12 +111,6 @@
 
 @media (min-width: 768px){
 
-    .section-5{
-        &--before::before{
-            display: block;
-        }
-    }
-
     .programm{
 
         &__row{
@@ -144,7 +138,7 @@
         &__text{
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.4;
             margin-bottom: 18px;
         }
@@ -153,7 +147,7 @@
     .content-about{
 
         &__row-1{
-            height: 390px;
+            height: 400px;
         }
     
         &__row-2{
@@ -161,16 +155,24 @@
         }
     
         &__row-3{
-            height: 276px;
+            height: 296px;
         }
     
         &__row-4{
-            height: 276px;
+            height: 316px;
         }
     
         &__row-5{
-            height: 293px;
+            height: 313px;
         }
     }   
 }
 
+@media(min-width: 850px){
+    .section-5{
+
+        &--before::before{
+            display: block;
+        }
+    }
+}

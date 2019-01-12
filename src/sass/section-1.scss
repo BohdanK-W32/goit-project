@@ -28,6 +28,11 @@
     }
 }
 
+.info-site{
+    display: flex;
+    flex-direction: column;
+}
+
 .headline{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -64,23 +69,21 @@
 
 .photo-wrap{
     max-width: 416px;
+    width: 100%;
     height: auto;
-    background-color: #000;
     margin-bottom: 54px;
 
     &__photo{
         object-fit: cover;
-        max-width: 416px;
         width: 100%;
         height: auto;
-        padding-bottom: 54px;
     }
 }
 
 .text{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
 
     &-bottom{
@@ -132,7 +135,7 @@
 
     &__content{
         position: relative;
-        padding: 40px 32px 0 0;
+        padding: 40px 32px 0 28px;
 
         &--before::before{
             content: "";
@@ -149,6 +152,8 @@
 @media(min-width: 768px){
 
     .section-1{
+        justify-content: space-between;
+
         &__about-course{
             margin-left: 103px;
 
@@ -159,12 +164,15 @@
 
         &__article{
             padding-left: 18px;
-            max-width: 420px;
+            width: 50%;
         }
     }
 
+    .photo-wrap{
+        width: 45%;
+    }
+
     .info-site{
-        display: flex;
         flex-direction: row;
     }
 
@@ -182,7 +190,7 @@
     }
 
     .text{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.4;
     }
 
@@ -191,5 +199,11 @@
         &--after::after{
             display: block;
         }
+    }
+}
+
+@media(min-width: 850px){
+    .text{
+        font-size: 18px;
     }
 }

@@ -13,7 +13,7 @@
     margin: 10px;
     margin-bottom: 35px;
     border: 1px solid #fafafa;
-    padding: 0 0 0 43px;
+    padding: 0 0 0 20px;
     -webkit-box-shadow: -5px 6px 30px -5px rgba(0,0,0,0.36);
     -moz-box-shadow: -5px 6px 30px -5px rgba(0,0,0,0.36);
     box-shadow: -5px 6px 30px -5px rgba(0,0,0,0.36);
@@ -133,6 +133,11 @@
     .course-start{
         margin: 10px auto;
         margin-bottom: 55px;
+        padding: 0 0 0 43px;
+
+        &__headline{
+            letter-spacing: 0px;
+        }
 
         &__add-access{
             margin-left: 70px;
