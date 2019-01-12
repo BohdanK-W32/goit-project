@@ -116,14 +116,20 @@
         &__row{
             display: flex;
             flex-direction: row;
-            margin: 15px 0;
+            justify-content: space-between;
+
+            &--last{
+                justify-content: flex-start;
+            }
         }
     }
 
     .item{
-        max-width: 267px;
-        width: 34%;
-        margin: 0 1%;
+        width: 30%;
+
+        &--margin{
+            margin-right: 33px;
+        }
     }
 
     .number{
@@ -147,11 +153,11 @@
     .content-about{
 
         &__row-1{
-            height: 400px;
+            height: 425px;
         }
     
         &__row-2{
-            height: 277px;
+            height: 320px;
         }
     
         &__row-3{
