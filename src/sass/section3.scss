@@ -20,6 +20,7 @@
   object-fit: cover;
   width: 100%;
   height: auto;
+  margin: 0 20px;
 }
 
 .slider-wrapper{
@@ -30,6 +31,7 @@
   position: relative;
   max-width: 480px;
   border: 1px solid #fafafa;
+  padding: 15px 0;
   -webkit-box-shadow: -10px 10px 38px -17px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: -10px 10px 38px -17px rgba(0, 0, 0, 0.36);
   box-shadow: -10px 10px 38px -17px rgba(0, 0, 0, 0.36);

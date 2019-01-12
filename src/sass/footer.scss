@@ -4,13 +4,15 @@
     padding: 0;
   }
   footer{
-    background: #000;
+    background: #333;
     font-family:Roboto, sans-serif;
+    padding: 2rem;
   }
   .footer__title{
     color: #fff;
     text-transform:uppercase;
     margin-left: 20%;
+    margin-bottom: 2rem;
     font-size:25px;
   }
   .person__photo{
