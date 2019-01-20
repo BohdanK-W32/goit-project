@@ -1,6 +1,7 @@
 /*
    Import partials below
 */
+
 @import './normalize';
 @import './fonts.scss';
 @import './variables.scss';
@@ -12,6 +13,7 @@
 @import './section3.scss';
 @import './section4.scss';
 @import './footer.scss';
+@import './media';
 
 //  Styles
 
@@ -21,8 +23,31 @@
      padding: 0;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 .wrapper{
    max-width: 850px;
    padding: 8px;
    margin: auto;
+}
+
+#btn_up{ 
+   line-height: 50px;
+   position: fixed;
+   width: 50px;
+   height: 50px;
+   right: 5%;
+   bottom: 5%;
+   background: rgba($color: #ff0000, $alpha: 0.95);
+   font-family: 'Roboto';
+   font-weight: 700;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   border-radius: 50%;
+   text-align: center;
+   box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.2);
+   z-index: 10;
 }
