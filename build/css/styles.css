@@ -868,9 +868,16 @@ template {
   display: none;
 }
 
-.title {
-  font-weight: bold;
-  font-size: 25px;
+.subline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.bg-black {
+  color: #fff;
+  background-color: #000;
 }
 
 .p {
@@ -1387,11 +1394,6 @@ html {
 
   .img {
     display: block;
-  }
-
-  .title {
-    font-size: 35px;
-    text-align: left;
   }
 
   .p {
