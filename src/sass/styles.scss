@@ -3,16 +3,17 @@
 */
 
 @import './normalize';
-@import './fonts.scss';
-@import './variables.scss';
-@import './header.scss';
-@import "./section-7.scss";
-@import './section-5.scss';
-@import './section-1.scss';
-@import './section2.scss';
-@import './section3.scss';
-@import './section4.scss';
-@import './footer.scss';
+@import './fonts';
+@import './variables';
+@import './header';
+@import './section-7';
+@import './section-5';
+@import './section-1';
+@import './section2';
+@import './section3';
+@import './section4';
+@import './footer';
+@import './nav';
 @import './media';
 
 //  Styles
@@ -40,7 +41,7 @@ html{
    height: 50px;
    right: 5%;
    bottom: 5%;
-   background: rgba($color: #ff0000, $alpha: 0.95);
+   background: rgba($color: #ff2222, $alpha: 0.95);
    font-family: 'Roboto';
    font-weight: 700;
    text-decoration: none;
