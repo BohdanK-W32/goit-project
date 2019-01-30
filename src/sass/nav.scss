@@ -10,7 +10,7 @@
   height: 45px;
   background: rgba($color: #999, $alpha: 0.7);
   z-index: 100;
-  transition: all ease-in 300ms;
+  transition: all ease-in 200ms;
 }
 
 .nav{
@@ -76,8 +76,20 @@
 }
 
 #checkbox-nav:checked ~ .burger-menu{
-  height: 100%;
-  background: #444;
+  height: 100vh;
+  background: rgba($color: #444, $alpha: 0.6);
+}
+
+#checkbox-nav:checked ~ .wrapper{
+  filter: blur(10px);
+}
+
+#checkbox-nav:checked ~ .footer{
+  filter: blur(10px);
+}
+
+#checkbox-nav:checked ~ #btn_up{
+  filter: blur(10px);
 }
 
 @media (min-width: 768px){

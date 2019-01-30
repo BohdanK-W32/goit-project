@@ -1221,7 +1221,7 @@ template {
   height: 45px;
   background: rgba(153, 153, 153, 0.7);
   z-index: 100;
-  transition: all ease-in 300ms;
+  transition: all ease-in 200ms;
 }
 
 .nav {
@@ -1291,8 +1291,23 @@ template {
 }
 
 #checkbox-nav:checked ~ .burger-menu {
-  height: 100%;
-  background: #444;
+  height: 100vh;
+  background: rgba(68, 68, 68, 0.6);
+}
+
+#checkbox-nav:checked ~ .wrapper {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#checkbox-nav:checked ~ .footer {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#checkbox-nav:checked ~ #btn_up {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
 }
 
 * {
