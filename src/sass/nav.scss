@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 10px;
+  padding: 7px;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -15,7 +15,7 @@
 .nav{
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 45px;
 
   &__link{
     font-family: 'Roboto', sans-serif;
@@ -50,7 +50,7 @@
 
 .nav-btn {
   position: fixed;
-  top: 8px;
+  top: 7px;
   right: 15px;
   display: block;
   z-index: 101;
@@ -77,7 +77,7 @@
 #checkbox-nav:checked ~ .burger-menu{
   height: 100vh;
   background: rgba($color: #333, $alpha: 0.35);
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 
 #checkbox-nav:checked ~ .wrapper{

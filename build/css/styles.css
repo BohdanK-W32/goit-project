@@ -1213,7 +1213,7 @@ template {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 10px;
+  padding: 7px;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -1226,7 +1226,7 @@ template {
 .nav {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .nav__link {
@@ -1261,7 +1261,7 @@ template {
 
 .nav-btn {
   position: fixed;
-  top: 8px;
+  top: 7px;
   right: 15px;
   display: block;
   z-index: 101;
@@ -1292,7 +1292,7 @@ template {
 #checkbox-nav:checked ~ .burger-menu {
   height: 100vh;
   background: rgba(51, 51, 51, 0.35);
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 
 #checkbox-nav:checked ~ .wrapper {
@@ -1626,6 +1626,10 @@ html {
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
+  .wrapper {
+    max-width: 425px;
+  }
+
   .content {
     width: auto;
   }
