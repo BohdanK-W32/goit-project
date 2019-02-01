@@ -39,3 +39,12 @@
         margin: auto;
     }
 }
+
+@media (min-width: 768px) {
+    #btn_up{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 21px;
+    }
+}

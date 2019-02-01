@@ -8,6 +8,7 @@
   background: #333;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
+  padding-bottom: 30px;
 
   &__title{
     color: #fff;
@@ -95,12 +96,15 @@
   }
 
   &__link{
-    padding: 1px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     transition: all ease-in-out 150ms;
   }
+}
+
+.link-p-margin{
+  margin-bottom: 4px;
 }
 
 @media(min-width:768px) {

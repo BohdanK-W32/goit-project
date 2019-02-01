@@ -1113,6 +1113,7 @@ template {
   background: #333;
   font-family: 'Roboto', sans-serif;
   padding: 10px;
+  padding-bottom: 30px;
 }
 
 .footer__title {
@@ -1202,11 +1203,14 @@ template {
 }
 
 .menu__link {
-  padding: 1px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   transition: all ease-in-out 150ms;
+}
+
+.link-p-margin {
+  margin-bottom: 4px;
 }
 
 .burger-menu {
@@ -1336,6 +1340,7 @@ html {
   background: rgba(255, 34, 34, 0.95);
   font-family: 'Roboto';
   font-weight: 700;
+  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -1564,6 +1569,13 @@ html {
 
   .nav-btn {
     display: none;
+  }
+
+  #btn_up {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 21px;
   }
 }
 
