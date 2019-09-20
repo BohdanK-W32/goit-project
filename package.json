@@ -1,6 +1,6 @@
 {
   "name": "gulp-starter-kit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,39 +12,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axZerk/gulp-starter-kit.git"
+    "url": "git+https://github.com/BohdanK911/ternopil-test-task.git"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Bohdan Kucheriavyi <kucheriavyi.w32@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/axZerk/gulp-starter-kit/issues"
-  },
-  "homepage": "https://github.com/axZerk/gulp-starter-kit#readme",
+  "homepage": "https://github.com/BohdanK911/ternopil-test-task#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "autoprefixer": "^9.1.5",
-    "browser-sync": "^2.26.0",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-plumber": "^1.2.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^4.0.1",
-    "gulp-stylelint": "^7.0.0",
-    "gulp-svgstore": "^7.0.0",
-    "gulp-uglify": "^3.0.1",
-    "run-sequence": "^2.2.1",
-    "stylelint": "^9.6.0"
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^9.0.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify": "^3.0.2",
+    "stylelint": "^10.1.0"
   },
-  "dependencies": {
-    "gulp-wait": "0.0.2"
-  }
+  "dependencies": {}
 }

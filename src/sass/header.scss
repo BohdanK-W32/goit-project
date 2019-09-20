@@ -1,70 +1,91 @@
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 850px;
-    margin: 0 auto;
-    margin-top: 55px;
-    margin-bottom: 3rem;
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 0 0.5rem;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+
+  &__btn {
+    display: none;
+    font-family: 'Qanelas';
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ffcd02;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    padding: 0.8rem 1.5rem;
+  }
 }
 
-.logo-wrapper{
-    margin-bottom: 1.5rem;
-
-    &__logo{
-        max-width: 128px;
-        height: auto;
-    }
+.weather {
+  display: none;
+  height: 50px;
+  margin-top: -10px;
+  pointer-events: none;
+  transform: scale(0.6);
+  width: 240px;
 }
 
-.contact{
-    display: flex;
-    flex-flow: column nowrap;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+.logo {
+  max-height: 45px;
+  height: 100%;
+  object-fit: cover;
+  margin: 0.5rem;
 }
 
-.email{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0.5rem;
-
-    &__link{
-        color: #000;
-        text-decoration: none;
-    }
+.headline {
+  font-family: 'Comfortaa';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
 }
 
-.tel{
-    display: flex;
-    flex-flow: column nowrap;
-
-    &__link{
-        color: #000;
-        text-decoration: none;
-        margin-bottom: 5px;
-    }
+#brand {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media(min-width: 768px){
-    .header{
-        width: 80vw;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+#nav {
+  background-color: #fff;
+}
 
-    .logo-wrapper{
-        margin-bottom: 0;
-    }
+#navbar-toggle {
+  border: #fff;
+}
 
-    .contact{
-        flex-flow: row;
-        align-items: center;
-    }
+#navbar {
+  background-color: #fff;
+}
 
-    .email{
-        margin-right: 24px;
+#navbar-dafault {
+  background-color: #fff;
+}
+
+#navbar-toggle {
+  background-color: #fff;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 768px) {
+  .weather {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    &__btn {
+      display: block;
     }
+  }
 }

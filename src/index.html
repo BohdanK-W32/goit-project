@@ -5,46 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="keywords" content="city, ukraine, ternopil, тернопіль, україна">
   <meta name="theme-color" content="#000000">
-  <meta name="copyright" content="Author">
+  <meta name="copyright" content="Bohdan Kucheriavyi">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
-  <meta name="apple-mobile-web-app-title" content="Application Name">
-  <meta name="msapplication-TileImage" content="images/favicons/144x144.png">
+  <meta name="apple-mobile-web-app-title" content="Ternopil'">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="format-detection" content="telephone=no">
-
-  <title>GoIT | Информационные сайты</title>
-  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/styles.min.css">
+  <title>Ternopil'</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script async>
+  ! function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://weatherwidget.io/js/widget.min.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  }(document, 'script', 'weatherwidget-io-js');
+  </script>
+  <link rel="stylesheet" href="css/styles.min.css" />
 </head>
 
 <body>
-        //= html/nav.html
-        <div itemscope itemtype="http://schema.org/Event" id="wrapper" class="wrapper">
-        <!-- HTML header import -->
-        //= html/header.html
+  //= ./html/header.html
+  //= ./html/map.html
+  //= ./html/contacts.html
+  //= ./html/form.html
 
-        <!-- HTML section-1 import -->
-        //= html/section-1.html
-        
-        <!-- HTML section2 import -->
-        //= html/section2.html
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/scripts.min.js"></script>
 
-        <!-- HTML section3 import -->
-        //= html/section3.html
-
-        <!-- HTML section-5 import -->
-        //= html/section-5.html
-
-        <!-- HTML section-7 import -->
-        //= html/section-7.html
-    </div>
-    <!-- HTML footer import -->
-    //= html/footer.html
-
-    <a id="btn_up" href="#wrapper">Up</a>
 </body>
+
 </html>
